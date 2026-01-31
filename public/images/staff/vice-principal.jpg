@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect fill="#E8EBF0" width="1200" height="800"/>
+  <rect fill="#0D1B2A" x="500" y="300" width="200" height="200" rx="20"/>
+  <text fill="#F4B41A" font-family="Georgia, serif" font-size="72" font-weight="bold" x="600" y="420" text-anchor="middle">A</text>
+  <text fill="#0D1B2A" font-family="sans-serif" font-size="24" x="600" y="560" text-anchor="middle">Ann Sandell High School</text>
+</svg>
