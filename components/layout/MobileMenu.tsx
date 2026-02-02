@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils/cn';
 import { Button } from '@/components/ui/Button';
@@ -64,8 +65,13 @@ export function MobileMenu({ isOpen, onClose, navigation, pathname }: MobileMenu
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-navy-100">
             <Link href="/" className="flex items-center gap-3" onClick={onClose}>
-              <div className="w-10 h-10 bg-navy-900 rounded-lg flex items-center justify-center">
-                <span className="text-gold-500 font-display font-bold text-xl">A</span>
+              <div className="relative w-12 h-12 flex-shrink-0">
+                <Image
+                  src="/images/logo.PNG"
+                  alt={`${siteConfig.name} logo`}
+                  fill
+                  className="object-contain"
+                />
               </div>
               <span className="font-display font-bold text-navy-900">
                 {siteConfig.shortName}

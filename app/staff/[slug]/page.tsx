@@ -66,22 +66,22 @@ export default async function StaffProfilePage({ params }: StaffProfilePageProps
 
       <div className="container-site -mt-8 pb-16">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-          <div className="md:flex">
+          <div className="md:flex md:items-start">
             {/* Photo */}
-            <div className="md:w-1/3">
-              <div className="relative aspect-[3/4] md:h-full">
+            <div className="md:w-1/3 md:sticky md:top-24 shrink-0">
+              <div className="relative aspect-[3/4]">
                 <Image
                   src={member.imageSrc}
                   alt={member.name}
                   fill
-                  className="object-cover"
+                  className="object-cover md:rounded-bl-xl"
                   priority
                 />
               </div>
             </div>
 
             {/* Info */}
-            <div className="md:w-2/3 p-8 md:p-10">
+            <div className="md:w-2/3 p-8 md:p-10 md:min-h-0">
               <Badge variant="gold" className="mb-4">{member.department}</Badge>
 
               <h1 className="font-display text-3xl md:text-4xl font-bold text-navy-900 mb-2">

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 import { siteConfig } from '@/lib/constants/site';
 import { footerNavigation } from '@/lib/data/navigation';
@@ -14,8 +15,13 @@ export function Footer() {
           {/* Brand & Contact */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gold-500 rounded-lg flex items-center justify-center">
-                <span className="text-navy-900 font-display font-bold text-2xl">A</span>
+              <div className="relative w-14 h-14 shrink-0">
+                <Image
+                  src="/images/logo.PNG"
+                  alt={`${siteConfig.name} logo`}
+                  fill
+                  className="object-contain"
+                />
               </div>
               <div>
                 <span className="font-display font-bold text-xl block">
