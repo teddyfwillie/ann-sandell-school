@@ -15,7 +15,7 @@ export const siteConfig = {
   },
 
   social: {
-    facebook: 'https://facebook.com/annsandellhs',
+    facebook: 'https://www.facebook.com/AnnSandellSchool',
     twitter: 'https://twitter.com/annsandellhs',
     instagram: 'https://instagram.com/annsandellhs',
     linkedin: 'https://linkedin.com/company/annsandellhs',
