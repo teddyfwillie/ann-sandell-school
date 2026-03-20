@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
+  icons: {
+    icon: '/images/logo.PNG',
+    shortcut: '/images/logo.PNG',
+    apple: '/images/logo.PNG',
+  },
   description: siteConfig.description,
   keywords: [
     'Ann Sandell High School',
