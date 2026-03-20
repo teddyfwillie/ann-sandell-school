@@ -20,7 +20,7 @@ export default function AboutPage() {
     <>
       <HeroSection
         title="About Ann Sandell"
-        subtitle="A legacy of excellence in education, shaping leaders for tomorrow since 1985."
+        subtitle="A legacy of excellence in education, shaping leaders for tomorrow since 2005."
         imageSrc="/images/about-hero.jpg"
         imageAlt="Ann Sandell High School campus overview"
         variant="secondary"
@@ -186,7 +186,7 @@ export default function AboutPage() {
                   Est.
                 </div>
                 <div className="font-display text-4xl font-bold leading-none">
-                  1985
+                  2005
                 </div>
                 <div className="text-xs font-semibold uppercase tracking-[0.1em] mt-1">
                   Founder
@@ -238,7 +238,7 @@ export default function AboutPage() {
                     Proprietress &amp; Founder
                   </p>
                   <p className="text-navy-500 text-sm mt-1">
-                    Ann Sandell High School, Est. 1985
+                    Ann Sandell High School, Est. 2005
                   </p>
                 </div>
               </div>
@@ -261,13 +261,13 @@ export default function AboutPage() {
               <div className="relative w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
                   src="/images/staff/principal.jpg"
-                  alt="Dr. James Kollie"
+                  alt="Mr. Biomah Yoryor"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="font-display text-xl font-semibold text-white mb-1">
-                Dr. James Kollie
+                Mr. Biomah Yoryor
               </h3>
               <p className="text-gold-400 font-medium mb-3">Principal</p>
               <p className="text-navy-200 text-sm">

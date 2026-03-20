@@ -65,7 +65,7 @@ export const news: NewsArticle[] = [
 
       <p>The facility was made possible through a generous donation from the Liberian Education Foundation and matching funds from the Ministry of Education.</p>
 
-      <p>"This lab will transform how our students learn," said Principal Dr. James Kollie at the ribbon-cutting ceremony. "Digital literacy is essential for success in today's world."</p>
+      <p>"This lab will transform how our students learn," said Principal Mr. Biomah Yoryor at the ribbon-cutting ceremony. "Digital literacy is essential for success in today's world."</p>
 
       <p>Computer Science teacher Mr. Joseph Gaye has already implemented new coding courses that will begin next term. Students will learn programming languages including Python and JavaScript.</p>
     `,
@@ -103,7 +103,7 @@ export const news: NewsArticle[] = [
 
       <p>The program will offer full tuition scholarships to five students each academic year, covering all fees, books, and uniforms. Recipients will be selected based on academic performance, community involvement, and demonstrated financial need.</p>
 
-      <p>"Education should be accessible to every child with the desire to learn," said Dr. James Kollie. "This program will help us reach students who might otherwise miss the opportunity for quality education."</p>
+      <p>"Education should be accessible to every child with the desire to learn," said . "This program will help us reach students who might otherwise miss the opportunity for quality education."</p>
 
       <p>Applications for the 2026-2027 academic year are now open. Interested families should contact the Admissions Office for more information.</p>
     `,

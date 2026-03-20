@@ -22,7 +22,7 @@ export const siteConfig = {
   },
 
   stats: {
-    founded: 1985,
+    founded: 2005,
     students: 850,
     teachers: 65,
     graduationRate: 98,
